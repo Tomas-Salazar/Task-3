@@ -26,7 +26,7 @@
 .nava{
     background-color: coral;
     padding: 8px;
-    margin: 5px;
+    margin: 8px;
     border-radius: 10%;
     text-decoration: none;
     color: white;
@@ -35,7 +35,7 @@
 
 .nava:hover{
     cursor: pointer;
-    transform: scale(1.5);
+    transform: scale(1.2);
     transition: 0.8s;
     background-color: red;
 }
