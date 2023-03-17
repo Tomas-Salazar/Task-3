@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raffle | Olympus Gym</title>
+    <link rel="shortcut icon" href="../images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body class="raffle-body">
+    <div class="div-caja-nav">
+        <nav class="nav-index">
+            <a href="../../index.html" class="nava">Home</a>
+            <a href="./aboutUs.html" class="nava">AboutUs</a>
+            <a href="./contact.html" class="nava">Contact</a>
+            <a href="./schedule.html" class="nava">Schedule</a>
+            <a href="./benefits&tips.html" class="nava">Benefits&Tips</a>
+            <a href="#" class="nava">Raffle</a>
+        </nav>
+        <img src="../images/logo.png" alt="logo_gym" class="logo">
+    </div>
+
+    <header class="raffle-header">
+        <h1 class="header11">Raffle</h1>
+        <h2 class="header12">Every month in this section you can participate in a raffle</h2>
+    </header>
+
+    <main class="raffle-main">
+        <div class="raffle-div">
+            <img src="../images/logo.png" alt="logo" class="log1">
+            <img src="../images/pngegg.png" alt="ticket" class="ticket">
+        </div>
+
+        <form action="./show_data.html" method="get" class="form">
+            <fieldset class="field1">
+                <legend class="legend1">Participate in our raffle for a month of personalized training</legend>
+
+                <label for="first-name">First Name:</label>
+                <input type="text" name="first-name" id="first-name" placeholder="First Name">
+                
+                <label for="last-name">Last Name:</label>
+                <input type="text" name="last-name" id="last-name" placeholder="Last Name">
+                
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="example@example.com">
+            </fieldset>
+
+            <fieldset class="field2">
+                <label for="gender">Choose Your Gender:</label>
+                <select name="gender" id="gender">
+                    <option disabled selected>Choose an option</option>
+                    <option value="f">Female</option>
+                    <option value="m">Male</option>
+                    <option value="o">Others</option>
+                </select>
+            </fieldset>
+
+            <fieldset class="field3">
+                <label for="country">Country</label>
+                <select name="country" id="country">
+                    <option disabled selected>Country</option>
+                    <option>Argentina</option>
+                    <option>Chile</option>
+                    <option>Uruguay</option>
+                    <option>Colombia</option> 
+                </select>
+            </fieldset>
+
+            <fieldset class="field4">
+                <legend>Payment Options:</legend>
+
+                <div class="divf4">
+                    <label for="payment1">Cash</label>
+                    <input type="radio" name="payment" id="payment1" value="cash">
+                </div>
+
+                <div class="divf4">
+                    <label for="payment2">Credit Card</label>
+                    <input type="radio" name="payment" id="payment2" value="cc">
+                </div>
+
+                <div class="divf4">
+                    <label for="payment3">Debit Card</label>
+                    <input type="radio" name="payment" id="payment3" value="dc">
+                </div>
+            </fieldset>
+
+            <fieldset class="field5">
+                <legend>Services</legend>
+
+                <textarea name="serv" id="serv" cols="30" rows="10"></textarea>
+            </fieldset>
+
+            <fieldset class="field6">
+                <label for="term">Accept Terms and Conditions...</label>
+                <input type="checkbox" name="term" id="term">
+            </fieldset>
+
+            <input type="submit" value="Send">
+        </form>
+    </main>
+    <footer class="raffle-footer">
+        <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d210337.11462724349!2d-58.69715115203504!3d-34.54045260667273!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb7e1ac2aa87d%3A0xa75ded4cef436325!2sOlympus%20Fitness%20%26%20Gym!5e0!3m2!1ses-419!2sar!4v1678995143315!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </footer>
+</body>
+</html>

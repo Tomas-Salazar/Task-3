@@ -8,6 +8,7 @@
 body{
     background: rgb(253,187,45);
     background: linear-gradient(0deg, rgba(253,187,45,1) 0%, rgba(57,170,217,1) 100%);
+    background-repeat: no-repeat;
 }
 
 .div-caja-nav{
@@ -15,23 +16,22 @@ body{
     justify-content: space-between;
     background-color:rgba(70, 131, 180, 0.795);
     align-items: center;
-    height: 10vh;
+    height: 5rem;
     position: sticky;
     top: 0;
     z-index: 2;
 }
 
 .nav-index{
-    margin-left: 20px;
-    width: 30vw;
+    width: 35rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: right;
 }
 
 .nava{
     background-color: coral;
-    padding: 8px;
-    margin: 8px;
+    padding: 0.5rem;
+    margin: 0.5rem;
     border-radius: 10%;
     text-decoration: none;
     color: white;
@@ -48,7 +48,7 @@ body{
 .logo{
     height: 4rem;
     width: 8rem;
-    margin-right: 20px;
+    margin-right: 1.25rem;
 }
 
 .a-header{
@@ -59,19 +59,16 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: rgb(57,170,217);
-    background: linear-gradient(0deg, rgba(57,170,217,1) 0%, rgba(253,187,45,1) 100%);
-    height: 80vh;
     color: white;
     justify-content:space-around;
 }
 
-.headerh1, .headerh3, .headerh5, .headerh7, .headerh9{
+.headerh1, .headerh3, .headerh5, .headerh7, .headerh9, .header11{
     text-decoration: underline;
 }
 
-.headerh1, .headerh2, .headerh3, .headerh4, .headerh5, .headerh6, .headerh7, .headerh8, .headerh9, .headerh10{
-    margin: 3px;
+.headerh1, .headerh2, .headerh3, .headerh4, .headerh5, .headerh6, .headerh7, .headerh8, .headerh9, .headerh10, .header11, .header12{
+    margin: 0.188rem;
     transition: 1.5s;
 }
 
@@ -79,7 +76,7 @@ body{
     z-index: 1;
 }
 
-.headerh1:hover, .headerh2:hover, .headerh3:hover, .headerh4:hover, .headerh5:hover, .headerh6:hover, .headerh7:hover, .headerh8:hover, .headerh9:hover, .headerh10:hover{
+.headerh1:hover, .headerh2:hover, .headerh3:hover, .headerh4:hover, .headerh5:hover, .headerh6:hover, .headerh7:hover, .headerh8:hover, .headerh9:hover, .headerh10:hover, .header11:hover, .header12:hover{
     cursor: pointer;
     transform: scale(1.5);
     transition: 2s;
@@ -87,43 +84,38 @@ body{
 }
 
 .guys{
-    height: 60vh;
-    width: 60vw;
+    height: 40rem;
+    width: 60rem;
     border-radius: 15% 15% 0 0;
 }
 
 .div-final{
-    display: flex;background: rgb(253,187,45);
-    background: linear-gradient(0deg, rgba(253,187,45,1) 0%, rgba(57,170,217,1) 100%);
-    height: 50vh;
+    display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 2rem;
+    margin-top: 1rem;
 }
 
 .p-final{
-    height: 50vh;
-    width: 40vw;
+    height: 30rem;
+    width: 30rem;
     text-align: center;
-    font-size: 25px;
-    padding: 5px;
-    background-color:rgb(70, 131, 180);
-    color: white;
+    font-size: 1.5rem;
+    background-color: #9a9a9ac5;
     display: flex;
     align-items: center;
-    margin: 1rem;
     border-radius: 0 0 0 15%;
+    color: white;
 }
 
 .mancuernas{
-    margin: 1rem;
-    height: 50vh;
-    width: 40vw;
+    height: 30rem;
+    width: 30rem;
     border-radius: 0 0 15% 0;
 }
 
 
-.about-header, .contact-header, .sch-header, .bene-header{
+.about-header, .contact-header, .sch-header, .bene-header, .raffle-header{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -148,19 +140,19 @@ body{
 }
 
 .about-img1, .about-img2, .about-img3{
-    width: 60vw;
-    height: 80vh;
+    width: 45rem;
+    height: 35rem;
     padding: 4rem;
-    border-radius: 25% 25% 25% 25%;
+    border-radius: 5rem 5rem 5rem;
 }
 
 .about-text1, .about-text2, .about-text3{
-    width: 60vw;
-    height: 80vh;
+    width: 45rem;
+    height: 35rem;
     display: flex;
     align-items: center;
     color: white;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .body-contact{
@@ -190,9 +182,8 @@ background: radial-gradient(circle, rgba(57,170,217,1) 27%, rgba(253,187,45,1) 6
     justify-content: space-around;
     align-items: center;
     color: white;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: bold;
-    padding: 0.5rem;
     background-color:rgba(70, 131, 180, 0.795);
 }
 
@@ -225,18 +216,16 @@ background: radial-gradient(circle, rgba(57,170,217,1) 27%, rgba(253,187,45,1) 6
 .caja{
     color: white;
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
     margin-top: 3rem;
 }
 
-table{
+.tab{
     text-align: center;
     background-color: rgb(57,170,217);
-background: linear-gradient(270deg, rgba(57,170,217,1) 33%, rgba(253,187,45,1) 66%);
-    height: 50vh;
-    width: 50vw;
+    background: linear-gradient(270deg, rgba(57,170,217,1) 33%, rgba(253,187,45,1) 66%);
+    height: 30vh;
+    width: 30vw;
     border-collapse: collapse;
     font-size: 20px;
     font-weight: bold;
@@ -249,7 +238,6 @@ td, th{
 thead{
     background-color: coral;
     border: 5px solid coral;
-    height: 5vh;
 }
 
 .bene-body{
@@ -293,4 +281,453 @@ thead{
     padding: 3rem;
     background-color: rgba(255, 255, 255, 0.726);
     border-radius: 20% 20% 20% 20%;
+}
+
+.raffle-main{
+    display: flex;
+    justify-content: center;
+    margin: 5rem;
+}
+
+.log1{
+    width: 20rem;
+    margin-left: 2rem;
+}
+
+.ticket{
+    width: 25rem;
+}
+
+.raffle-div{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.form{
+    background-color: red;
+    background: radial-gradient(circle, rgba(255, 0, 0, 0.69) 12%,  rgba(253, 187, 45, 0.729) 100%);
+    border-radius: 10% 10% 10% 10%;
+    border: 0.5rem double black;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 4rem;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.field1, .field2, .field3, .field4, .field5, .field6{
+    display: flex;
+    margin: 1rem;
+    border: transparent;
+}
+
+.raffle-footer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+
+.mapa{
+    height: 50vh;
+    width: 70vw;
+}
+
+legend, label{
+    text-align: left;
+    padding: 0.4rem;
+    background-color: rgba(0, 0, 0, 0.707);
+    color: white;
+    margin: 0.2rem;
+}
+
+.field1, .field2, .field3{
+    flex-direction: column;
+}
+
+.legend1{
+    font-weight: bold;
+    width: 30vw;
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background-color: rgba(0, 0, 0, 0.707);
+    color: white;
+    border-radius: 2rem;
+}
+
+.divf4{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+.field4{
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px){
+    body{
+        background: rgb(0,0,0);
+        background: linear-gradient(45deg, rgba(0,0,0,1) 25%, rgba(255,0,0,1) 75%);
+    }
+
+    .div-caja-nav{
+        background-color: black;
+        justify-content: space-around;
+        align-items: center;
+        height: 100%;
+        position: static;
+    }
+
+    .nav-index{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .nava{
+        padding: 0.1rem;
+        margin: 0.5rem;
+        background-color: #9a9a9ac5;
+    }
+
+    .nava:hover{
+        background-color: red;
+    }
+    .headerh1:hover, .headerh2:hover, .headerh3:hover, .headerh4:hover, .header11:hover, .header12:hover{
+        color: black;
+        cursor: pointer;
+        transform: scale(1);
+        transition: 2s;
+    }
+
+    .headerh5:hover, .headerh6:hover, .headerh7:hover, .headerh8:hover, .headerh9:hover, .headerh10:hover{
+        cursor: pointer;
+        transform: scale(1);
+        transition: 2s;
+    }
+
+    .headerh1, .headerh2, .headerh3, .headerh4, .headerh5, .headerh6, .headerh7, .headerh8, .headerh9, .headerh10, .header11, .header12{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .guys{
+        width: 90vw;
+        height: 50%;
+    }
+    .div-final{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .mancuernas{
+        border-radius: 0 0 15% 15%;
+        width: 90vw;
+        height: 50%;
+    }
+    .p-final{
+        border-radius: 0;
+        font-size: 1.5rem;
+        width: 90vw;
+        height: 50%;
+    }
+
+
+
+    .about-div1{
+        margin: 0;
+    }
+
+    .about-div1, .about-div2, .about-div3{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .about-div2, .about-div3{
+        margin-top: 3rem;
+    }
+
+    .about-img1, .about-img2, .about-img3{
+        border-radius: 1rem;
+        padding: 0;
+        width: 90vw;
+        height: 50%;
+    }
+
+    .about-text1, .about-text2, .about-text3{
+        height: 100%;
+        width: 90vw;
+        text-align: center;
+        font-size: 1rem;
+        padding: 1rem;
+        background-color: #9a9a9ac5;
+        border-radius: 1rem;
+    }
+
+    .about-main{
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+
+
+    .body-contact{
+        background-color: rgb(154,154,154);
+        background: radial-gradient(circle, rgba(154,154,154,1) 25%, rgba(0,0,0,1) 75%);
+    }
+
+    .index-header, .about-header, .contact-header, .sch-header, .bene-header, .raffle-header{
+        height: 100%;
+        width: 100%;
+    }
+
+    .contact-main, .contact-div1, .contact-div2, .contact-p1{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+
+    .contact-img1{
+        height: 80vh;
+        width: 100%;
+    }
+
+    .body-contact{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .contact-div1, .contact-div2{
+        font-size: 1rem;
+    }
+
+    .contact-div2{
+        background-color:rgba(154,154,154,1);
+        justify-content: space-around;
+        height: 10vh;
+    }
+
+
+
+
+    .schedule-body{
+        background: rgb(255,0,0);
+        background: linear-gradient(45deg, rgba(255,0,0,1) 25%, rgba(0,0,0,1) 75%);
+    }
+
+    .caja{
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .tab{
+        background: rgb(255,0,0);
+        background: linear-gradient(45deg, rgba(255,0,0,1) 25%, rgba(0,0,0,1) 75%);
+        width: 20vw;
+        height: 40vh;
+        font-size: 0.8rem;
+    }
+
+    td, th{
+        border: 0.188rem solid rgba(154,154,154,1);
+        height: 0.5rem;
+        width: 0.5rem;
+    }
+    
+    thead{
+        background-color: rgba(154,154,154,1);
+        border: 0.313rem solid rgba(154,154,154,1);
+    }
+
+
+    .bene-body{
+        background: rgb(255,0,0);
+        background: linear-gradient(45deg, rgba(255,0,0,1) 25%, rgba(0,0,0,1) 75%);
+    }
+
+    .bene-main{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .bene-img1, .bene-img2{
+        display: flex;
+        flex-direction: column;
+        height: 20rem;
+        width: 90%;
+        margin: 0;
+    }
+
+
+
+    .raffle-body{
+        padding: 0;
+        margin: 0;
+        background-color: rgb(255,0,0);
+        background: linear-gradient(270deg, rgba(255,0,0,1) 25%, rgba(154,154,154,1) 75%);
+        font-size: 1rem;
+    }
+
+    .raffle-main{
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .raffle-div{
+        align-items: center;
+    }
+
+    .log1{
+        width: 10rem;
+    }
+    
+    .ticket{
+        width: 20rem;
+    }
+
+    .legend1{
+        text-align: center;
+        width: 50vw;
+    }
+
+    .footer{
+        height: 100%;
+        width: 60vw;
+    }
+
+    .mapa{
+        height: 30vh;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    .guys{
+        width: 80vw;
+        height: 50%;
+    }
+
+    .about-img1, .about-img2, .about-img3{
+        border-radius: 1rem;
+        padding: 0;
+        margin: 0;
+        width: 40vw;
+        height: 50%;
+    }
+
+    .about-text1, .about-text2, .about-text3{
+        height: 100%;
+        width: 90vw;
+        text-align: center;
+        font-size: 1rem;
+        padding: 1rem;
+        background-color: #9a9a9ac5;
+        border-radius: 1rem;
+    }
+    .about-main{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .about-div3{
+        padding-bottom: 20vh;
+    }
+
+    .contact-main, .contact-div1, .contact-div2, .contact-p1{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+
+    .contact-p1{
+        width: 90vw;
+    }
+
+    .body-contact{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 100vh;
+    }
+
+    .contact-div1, .contact-div2{
+        font-size: 1rem;
+    }
+
+    .contact-div2{
+        background-color:rgba(70, 131, 180, 0.795);
+        justify-content: space-around;
+        height: 10vh;
+    }
+
+    .caja{
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .tab{
+        background-color: rgb(57,170,217);
+        background: linear-gradient(270deg, rgba(57,170,217,1) 33%, rgba(253,187,45,1) 66%);
+        width: 50vw;
+        height: 50vh;
+        font-size: 0.8rem;
+    }
+
+    td, th{
+        border: 0.188rem solid coral;
+        height: 0.5rem;
+        width: 0.5rem;
+    }
+    
+    thead{
+        background-color:coral;
+        border: 0.313rem solid coral;
+    }
+
+    .bene-main{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .bene-img{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bene-img1, .bene-img2{
+        height: 20rem;
+        width: 90%;
+        margin: 0;
+    }
+
+    .raffle-body{
+        padding: 0;
+        margin: 0;
+        font-size: 1rem;
+    }
+
+    .log1{
+        width: 10rem;
+    }
+    
+    .ticket{
+        width: 20rem;
+    }
 }
